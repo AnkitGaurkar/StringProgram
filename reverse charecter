@@ -1,0 +1,19 @@
+package com;
+
+public class Demo2 {
+	
+	public static void main(String[]args)
+	{
+	char[]a=new char[] {'a','b','c'};
+	 String s=new String(a);// s=String.valueOf(a);
+	 
+	 String rev="";
+	 
+	 for(int i=s.length()-1;i>=0;i--)
+	 {
+		 rev=rev+s.charAt(i);
+	 }
+	 System.out.println(rev);
+	}
+
+}
