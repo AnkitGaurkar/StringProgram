@@ -1,0 +1,19 @@
+package com;
+
+public class Demo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		char[] copyFrom= {'a','b','c','d','g','h'};
+		
+		char[] copyTo=new char[7];
+		
+		System.arraycopy(copyFrom, 2, copyTo, 0, 3);
+		
+		System.out.println(String.copyValueOf(copyTo));
+		
+		
+	}
+
+}
