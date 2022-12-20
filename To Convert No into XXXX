@@ -1,0 +1,26 @@
+package com;
+
+public class Demo2 {
+
+	public static void main(String[] args) {
+		
+		String no="45678988888";
+		
+		char a[]=no.toCharArray();
+		
+		//for(int i=0;i<no.length();i++)
+		//{
+		//	a[i]=no.charAt(i);
+		//}
+		for(int i=2;i<no.length();i++)
+		{
+			a[i]='*';
+		}
+		for(int i=0;i<no.length();i++)
+		{
+			System.out.print(a[i]);
+		}
+		
+	}
+
+}
