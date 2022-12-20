@@ -1,0 +1,16 @@
+package com;
+
+public class Demo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s="Ankit 12345";
+		char a='-';
+		
+		s=s.replace(' ', a);
+		
+		System.out.println(s);
+	}
+
+}
