@@ -1,0 +1,26 @@
+package com;
+
+public class Demo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s="Ankit Sunil Gaurkar";
+		
+		String firstChar,remainingChar, CapitalizedWord;
+		
+		String word[]=s.split("\\s");
+		
+		for(String a:word)
+		{
+			firstChar=a.substring(0,1);
+			firstChar=firstChar.toUpperCase();
+			remainingChar=a.substring(1);
+			//remainingChar=remainingChar.toLowerCase();
+			CapitalizedWord=firstChar+remainingChar;
+			System.out.print(CapitalizedWord+ " ");
+		
+	}
+
+}
+}
